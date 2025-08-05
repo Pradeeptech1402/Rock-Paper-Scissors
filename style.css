@@ -1,0 +1,79 @@
+html{
+    background-color: rgb(25, 25, 25);
+    color:white;
+    font-family:Arial, Helvetica, sans-serif
+}
+h1{
+    font-size: 30px;
+}
+.pickker{
+    width:120px;
+    height:120px;
+    border-radius: 100%;
+    background:transparent;
+    color:white;
+    border:3px solid white;
+    cursor: pointer;
+}
+.pickker:hover .icon{
+    width:70px;
+}
+.icon{
+    width:60px;
+}
+.container{
+    display:inline;
+    margin:10px;
+}
+.picks{
+    width:60px;
+}
+.status{
+    font-size:18px;
+}
+.reset,.autoplay-btn{
+    width:120px;
+    height:40px;
+    font-size: 18px;
+    font-weight:bold;
+    color: rgb(48, 33, 0);
+    background-color: rgb(255, 128, 0);
+    border:none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.autoplay-btn{
+    background-color:white;
+    color:black;
+    width:auto;
+    padding:10px;
+    margin-left:10px;
+}
+.reset:hover{
+    background-color: rgb(245, 158, 81);
+
+}
+.scores{
+    font-size:18px;
+}
+.win{
+    color:rgb(48, 180, 0)
+}
+.loss{
+    color:rgb(235, 50, 50)
+}
+.alert-active{
+    max-width: 460px;
+    height:40px;
+    font-size:18px;
+    background-color:rgb(95, 93, 93);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.terminate,.notTerminate{
+    height:80%;
+    margin:2px;
+    width:50px;
+    border-radius: 10px;
+}
